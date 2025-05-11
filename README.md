@@ -7,7 +7,7 @@ Very huge project.
 + Something ORIGINAL
 ```
 ## Plan
-# (x)===<[Ducki67.gihub.io/D67]>===(x)
+# (x)===<[Ducki67.gihub.io/D67](https://example.site)>===(x)
 - [ ] Idea folder
 - [ ] Images folder / uploads
 - [ ] Fortnite-ish 👀 
