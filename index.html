@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ducki67 | Main Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      overflow: hidden;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p.description {
+      font-size: 1.5rem;
+      margin-bottom: 3.5rem;
+      max-width: 750px;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .btn-card {
+      background-color: rgba(35, 134, 54, 0.85);
+      padding: 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-card:hover {
+      background-color: rgba(46, 160, 67, 0.95);
+    }
+
+    .btn-card p {
+      margin-top: 10px;
+      font-size: 0.97rem;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="FNBG3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h1>♢ Ducki67's Projects and Tools. ♢</h1>
+    <p class="description">✎ I'm just a simple Hungarian 🇭🇺 making cool stuff around OGFN (Old Fortnite). Explore my tools, projects, and builds below!</p>
+
+    <div class="button-grid">
+      <a class="btn-card" href="https://github.com/Ducki67" target="_blank">
+        D67's GitHub📒
+        <p>My main GitHub profile with all my work and projects.</p>
+      </a>
+      <a class="btn-card" href="https://github.com/Ducki67/Alpha-OG-Fortnite" target="_blank">
+        Alpha OGFN📡
+        <p>A dedicated repo for Alpha OG Fortnite MP hosting / project (OGFN).</p>
+      </a>
+      <a class="btn-card" href="https://github.com/Ducki67/Fortnite-Build-Installer-Plus" target="_blank">
+        Build Installer(➕)
+        <p>Enhanced tool for installing Fortnite builds easily with all seasons and chapters from 1 up to 6  (OT6.5 - 34.40)</p>
+      </a>
+      <a class="btn-card" href="https://github.com/Ducki67?tab=repositories" target="_blank">
+        D67's Repositories🧾️
+        <p>All my open-source work, mods, launchers, and tools.</p>
+      </a>
+      <a class="btn-card" href="https://github.com/Ducki67/Fortnite-Build-Download-methods" target="_blank">
+        Build Download Methods📂
+        <p>Different ways to download various Fortnite builds. A list of FN-Build archives.</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
